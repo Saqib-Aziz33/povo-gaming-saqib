@@ -13,6 +13,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     user-select: none;
+    color: #fff !important;
 }
 
 // scrollbar
@@ -46,6 +47,16 @@ a:hover{
 .footer{
     background-color: $clr-primary;
     color: #fff;
+}
+.hero{
+    background-image: url('./media/welcome-bg.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    .heading{
+        color: #fff;
+        text-shadow: 0 5px 8px #8b0000;
+    }
 }
 
 
