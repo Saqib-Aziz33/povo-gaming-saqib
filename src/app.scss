@@ -42,6 +42,16 @@ a:hover{
         &:hover{
             color: red;
         }
+        &.active {
+            color: #fff !important;
+        }
+    }
+    @media only screen and (max-width: 768px){
+        .nav-link{
+            &:hover{
+                text-align: center;
+            }
+        }
     }
 }
 .footer{

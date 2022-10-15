@@ -126,6 +126,26 @@ const Hero = () => {
           </Row>
         </Box>
       </Container>
+      <Box className="container-fluid">
+        <HStack
+          gap={4}
+          flexDirection={{ base: "column", md: "row" }}
+          bg="black"
+          justify="space-around"
+          py={8}
+        >
+          <img
+            src="assets/yahoo.png"
+            style={{ width: "100%", maxWidth: "300px" }}
+            alt=""
+          />
+          <img
+            src="assets/benzinga.png"
+            style={{ width: "100%", maxWidth: "300px" }}
+            alt=""
+          />
+        </HStack>
+      </Box>
     </div>
   );
 };

@@ -17,12 +17,12 @@ function Header() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Staking</Nav.Link>
-            <Nav.Link href="#link">Governance</Nav.Link>
-            <Nav.Link href="#link">Tokenomics</Nav.Link>
-            <Nav.Link href="#link">Roadmap</Nav.Link>
-            <Nav.Link href="#link">Rugpul</Nav.Link>
-            <Nav.Link href="#link">FAQ</Nav.Link>
+            <Nav.Link href="#staking">Staking</Nav.Link>
+            <Nav.Link href="#governance">Governance</Nav.Link>
+            <Nav.Link href="#tokenomics">Tokenomics</Nav.Link>
+            <Nav.Link href="#roadmap">Roadmap</Nav.Link>
+            <Nav.Link href="#rugpul">Rugpul</Nav.Link>
+            <Nav.Link href="#faq">FAQ</Nav.Link>
             <Button colorScheme="red">Connect Wallet</Button>
           </Nav>
         </Navbar.Collapse>
