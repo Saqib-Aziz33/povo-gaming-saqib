@@ -1,20 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+$clr-primary: #2d061bFF;
+$clr-secondary: #113f65FF;
+
 *{
     font-family: 'Roboto', sans-serif;
 }
 
+body{
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('./media/bg.jpg') !important;
+    background-attachment: fixed !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    user-select: none;
+}
 
+// scrollbar
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: $clr-primary;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 20px;
+    background-color: $clr-secondary;
+}
+a:hover{
+    color: red;
+}
 
 // *************************** components ***************************
 .header{
-    background-color: #2d061bFF;
+    background-color: $clr-primary;
     .nav-link{
         color: white;
         font-weight: 700;
         margin: 0 8px;
         font-size: 15px;
+        &:hover{
+            color: red;
+        }
     }
+}
+.footer{
+    background-color: $clr-primary;
+    color: #fff;
 }
 
 
