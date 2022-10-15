@@ -7,7 +7,15 @@
 
 
 // *************************** components ***************************
-
+.header{
+    background-color: #2d061bFF;
+    .nav-link{
+        color: white;
+        font-weight: 700;
+        margin: 0 8px;
+        font-size: 15px;
+    }
+}
 
 
 // *************************** overrides ***************************
