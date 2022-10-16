@@ -1,4 +1,5 @@
 import { HeroCarousel } from "./index";
+import Par from "./Par";
 // ui
 import { Container, Row } from "react-bootstrap";
 import { Box, Button, HStack, Flex, Link, Text } from "@chakra-ui/react";
@@ -9,6 +10,7 @@ import { FaMediumM, FaGithub, FaReddit } from "react-icons/fa";
 const Hero = () => {
   return (
     <div className="hero pt-5">
+      <Par />
       <Container className="pt-5">
         <Box pt={32} pb={8}>
           <Row className="">
