@@ -2,6 +2,7 @@
 
 $clr-primary: #2d061bFF;
 $clr-secondary: #113f65FF;
+$clr-red: #8b0000;
 
 *{
     font-family: 'Roboto', sans-serif;
@@ -68,6 +69,12 @@ a:hover{
         text-shadow: 0 5px 8px #8b0000;
     }
 }
+.staking{
+    background: url('./media/stakebg.jpg') no-repeat 50%;
+    background-size: cover;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
 
 
 // *************************** overrides ***************************
@@ -75,3 +82,6 @@ a:hover{
 
 
 // *************************** utils ***************************
+.txt-red{
+    color: $clr-red;
+}

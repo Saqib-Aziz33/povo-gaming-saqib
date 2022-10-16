@@ -1,10 +1,11 @@
 // componenets
-import { Hero } from "../components/elements";
+import { Hero, Staking } from "../components/elements";
 
 function Home() {
   return (
     <>
       <Hero />
+      <Staking />
     </>
   );
 }
