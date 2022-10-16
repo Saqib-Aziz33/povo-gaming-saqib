@@ -3,7 +3,9 @@ import { Container } from "react-bootstrap";
 const Roadmap = () => {
   return (
     <div className="roadmap">
-      <Container></Container>
+      <Container>
+        <img src="assets/roadmap.png" alt="" className="img-fluid" />
+      </Container>
     </div>
   );
 };

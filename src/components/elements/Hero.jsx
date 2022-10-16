@@ -12,7 +12,7 @@ const Hero = () => {
       <Container className="pt-5">
         <Box pt={32} pb={8}>
           <Row className="">
-            <section className="col-md-6 mb-4">
+            <section className="col-lg-6 mb-4">
               <h1 className="heading display-4 fw-normal">
                 Play to win <br /> Reward on holding
               </h1>
@@ -46,7 +46,7 @@ const Hero = () => {
                 </Button>
               </HStack>
               {/* icons */}
-              <Flex my={8} direction="row" gap="6">
+              <Flex wrap="wrap" my={8} direction="row" gap="6">
                 <Link href="#">
                   <FaMediumM size={25} />
                 </Link>
@@ -94,7 +94,7 @@ const Hero = () => {
               </Flex>
             </section>
 
-            <section className="col-md-6 mb-4">
+            <section className="col-lg-6 mb-4">
               <HeroCarousel />
               {/* token address */}
               <Flex
@@ -105,7 +105,12 @@ const Hero = () => {
                 <Text bgColor="#E53E3E" p={2}>
                   Token Address
                 </Text>
-                <Text border="1px solid #E53E3E" bg="#2d061bFF" p={2}>
+                <Text
+                  wordBreak="break-word"
+                  border="1px solid #E53E3E"
+                  bg="#2d061bFF"
+                  p={2}
+                >
                   0x2a2d03a47ae6220312337d1f094badcd1ee948cc
                 </Text>
               </Flex>

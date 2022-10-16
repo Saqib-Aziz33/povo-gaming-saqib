@@ -111,7 +111,38 @@ a:hover{
     padding-top: 70px;
     padding-bottom: 70px;
 }
-
+.mission{
+    background: url('./media/stakebg.jpg') no-repeat 50%;
+    background-size: cover;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.vision {
+    background: url('./media/vision.jpg') no-repeat 50%;
+    background-size: cover;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.tokenomics {
+    background: url('./media/stakebg.jpg') no-repeat 50%;
+    background-size: cover;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    .stat-list{
+        li{
+            margin-bottom: 1rem;
+            span{
+                display: inline-block;
+                padding-top: 0.1rem !important;
+                padding-bottom: 0.1rem !important;
+            }
+        }
+    }
+}
+.roadmap{
+    background-color: black;
+    padding-top: 70px;padding-bottom: 70px;
+}
 // *************************** overrides ***************************
 
 

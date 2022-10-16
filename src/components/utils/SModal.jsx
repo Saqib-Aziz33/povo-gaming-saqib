@@ -15,7 +15,7 @@ function SModal({ heading, text, children }) {
   console.log(heading);
   return (
     <>
-      <Box cursor="pointer" onClick={onOpen}>
+      <Box display="inline" cursor="pointer" onClick={onOpen}>
         {children}
       </Box>
 

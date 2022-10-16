@@ -39,6 +39,7 @@ function Footer() {
 
           {/* icons */}
           <Flex
+            wrap="wrap"
             alignSelf={{ base: "center", md: "flex-end" }}
             direction="row"
             gap="4"
