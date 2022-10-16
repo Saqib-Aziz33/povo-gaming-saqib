@@ -1,12 +1,10 @@
 import {
   Box,
   Text,
-  Button,
   Modal,
   ModalOverlay,
   ModalContent,
   ModalHeader,
-  ModalFooter,
   ModalBody,
   ModalCloseButton,
   useDisclosure,
