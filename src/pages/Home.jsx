@@ -1,5 +1,5 @@
 // componenets
-import { Hero, Staking, ExclusiveNFTS } from "../components/elements";
+import { Hero, Staking, ExclusiveNFTS, Features } from "../components/elements";
 
 function Home() {
   return (
@@ -7,6 +7,7 @@ function Home() {
       <Hero />
       <Staking />
       <ExclusiveNFTS />
+      <Features />
     </>
   );
 }

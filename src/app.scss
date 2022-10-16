@@ -81,6 +81,26 @@ a:hover{
     padding-top: 70px;
     padding-bottom: 70px;
 }
+.features{
+    .feature-box{
+        background-color: white;
+        color: #3d3d3d;
+        border-radius: 5px;
+        height: 100%;
+        &.bg-red{
+            background: $clr-red;
+            .text-muted{
+                color: #fff !important;
+            }
+            .txt-red{
+                color: white;
+            }
+        }
+        img{
+            height: 100px;
+        }
+    }
+}
 
 // *************************** overrides ***************************
 

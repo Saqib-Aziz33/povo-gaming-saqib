@@ -35,7 +35,7 @@ const ExclusiveNFTS = () => {
         <Box py={16}>
           <Carousel
             responsive={responsive}
-            showDots={false}
+            arrows={false}
             infinite={true}
             autoPlay={true}
             autoPlaySpeed={2000}
