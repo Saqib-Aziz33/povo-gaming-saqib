@@ -1,10 +1,10 @@
 import { Container } from "react-bootstrap";
 
-const Faqs = () => {
+const Friends = () => {
   return (
-    <div className="faqs">
+    <div className="friends">
       <Container></Container>
     </div>
   );
 };
-export default Faqs;
+export default Friends;

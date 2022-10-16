@@ -1,10 +1,10 @@
 import { Container } from "react-bootstrap";
 
-const Faqs = () => {
+function Tokenomics() {
   return (
-    <div className="faqs">
+    <div className="tokenomics">
       <Container></Container>
     </div>
   );
-};
-export default Faqs;
+}
+export default Tokenomics;

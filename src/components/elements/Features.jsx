@@ -1,7 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { Box, Text } from "@chakra-ui/react";
 import featuresData from "../utils/features.json";
-import { SModal } from "./index";
+import SModal from "../utils/SModal";
 
 function Features() {
   return (

@@ -1,10 +1,10 @@
 import { Container } from "react-bootstrap";
 
-const Faqs = () => {
+function Protected() {
   return (
-    <div className="faqs">
+    <div className="protected">
       <Container></Container>
     </div>
   );
-};
-export default Faqs;
+}
+export default Protected;

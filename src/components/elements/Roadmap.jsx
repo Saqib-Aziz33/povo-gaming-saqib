@@ -1,10 +1,10 @@
 import { Container } from "react-bootstrap";
 
-const Faqs = () => {
+const Roadmap = () => {
   return (
-    <div className="faqs">
+    <div className="roadmap">
       <Container></Container>
     </div>
   );
 };
-export default Faqs;
+export default Roadmap;
