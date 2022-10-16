@@ -143,6 +143,19 @@ a:hover{
     background-color: black;
     padding-top: 70px;padding-bottom: 70px;
 }
+.protected {
+    background: url('./media/exclusivebg.png') no-repeat 50%;
+    background-size: cover;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    ul{
+        font-weight: 700;
+        font-size: 1.2rem;
+        li{
+            margin-bottom: 0.5rem;
+        }
+    }
+}
 // *************************** overrides ***************************
 
 
