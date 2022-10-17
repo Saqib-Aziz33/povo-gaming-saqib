@@ -12,7 +12,7 @@ import {
 
 function SModal({ heading, text, children }) {
   const { isOpen, onOpen, onClose } = useDisclosure();
-  console.log(heading);
+
   return (
     <>
       <Box display="inline" cursor="pointer" onClick={onOpen}>

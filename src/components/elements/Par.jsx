@@ -47,7 +47,7 @@ function Par() {
         },
         particles: {
           color: {
-            value: "#219ebc",
+            value: ["#219ebc", "#ffc107FF"],
           },
           collisions: {
             enable: true,
@@ -67,7 +67,7 @@ function Par() {
               enable: true,
               area: 1000,
             },
-            value: 30,
+            value: 40,
           },
           opacity: {
             value: 0.5,
